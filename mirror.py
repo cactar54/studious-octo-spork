@@ -1,6 +1,5 @@
 def mirror (array):
     mirroredArray = []
-    reversedString = ""
     loops = 0
 
     for item in array:
