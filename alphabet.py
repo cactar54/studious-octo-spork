@@ -1,9 +1,18 @@
 def alphabet(array, letter):
     matchingItems = []
-    arrayPosition = 0
+    firstLetters = []
+    position = 0
 
     for item in array:
-        if (item[0] == letter):
-            matchingItems[arrayPosition] = item
-            arrayPosition += 1
+        firstLetters.append(array[position][0])
+        if letter.isupper():
+            if firstLetters[position] == letter:
+                matchingItems.append(item)
+
+        if letter.islower():
+            if firstLetters[position] == letter.upper():
+                matchingItems.append(item)
+
+        position += 1
+
     return matchingItems
