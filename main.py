@@ -12,3 +12,4 @@ if __name__ == "__main__":
     print(reverse(animals))
     print(combine(animals))
     print(alphabet(animals, searchLetter))
+    print(mirror(animals))
