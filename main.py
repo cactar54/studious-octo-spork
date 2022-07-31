@@ -1,6 +1,7 @@
 from combine import combine
 from reverse import reverse
 from alphabet import alphabet
+from mirror import mirror
 
 #Enter letter you wish to search for in the alphabet function here
 searchLetter = "d"
