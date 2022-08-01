@@ -1,6 +1,6 @@
 import random
 
-def randomizeOrder(array):
+def randomize_order(array):
     randomizedOrder = []
     arrayLength = len(array)
     usedNumbers = []
@@ -16,7 +16,7 @@ def randomizeOrder(array):
 
 
 
-def randomizeSpelling(array):
+def randomize_spelling(array):
     randomizedSpelling = []
     loops = 0
     usedNumbers = []
