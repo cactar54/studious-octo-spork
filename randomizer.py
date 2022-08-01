@@ -19,11 +19,11 @@ def randomize_order(array):
 def randomize_spelling(array):
     randomizedSpelling = []
     loops = 0
-    usedNumbers = []
 
     for item in array:
         wordLength = len(item)
         randomString = ""
+        usedNumbers = []
 
         while len(usedNumbers) < wordLength:
             randomNumber = random.randrange(0, wordLength, 1)
@@ -33,7 +33,5 @@ def randomize_spelling(array):
 
         randomizedSpelling.append(randomString)
         loops += 1
-        usedNumbers = []
-
 
     return randomizedSpelling
