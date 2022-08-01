@@ -22,7 +22,7 @@ def randomize_spelling(array):
     usedNumbers = []
 
     for item in array:
-        wordLength = len(array[loops])
+        wordLength = len(item)
         randomString = ""
 
         while len(usedNumbers) < wordLength:
